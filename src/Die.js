@@ -7,7 +7,7 @@ export default function Die(props) {
   function x() {
     const hello = [];
     for (let i = 0; i < props.value; i++) {
-      hello.push(<h2 className={`die-${props.value}`}></h2>);
+      hello.push(<spam className={`die-${props.value}`}></spam>);
     }
     return hello;
   }
